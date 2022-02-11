@@ -1,0 +1,22 @@
+{
+  "name": "screenshot",
+  "version": "0.1.0",
+  "description": "Screenshot as a Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/screenshot-service/screenshot.git"
+  },
+  "keywords": [
+    "screenshot"
+  ],
+  "author": "João Thallis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/screenshot-service/screenshot/issues"
+  },
+  "homepage": "https://github.com/screenshot-service/screenshot#readme"
+}
