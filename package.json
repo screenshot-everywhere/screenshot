@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/screenshot-service/screenshot/issues"
   },
-  "homepage": "https://github.com/screenshot-service/screenshot#readme"
+  "homepage": "https://github.com/screenshot-service/screenshot#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
