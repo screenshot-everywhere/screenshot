@@ -5,8 +5,8 @@ const port = 3000
 
 import path from 'path';
 
-app.get('/:url', async  (req, res) => {
-	const url = "https://".concat(req.params.url)
+app.get('/', async  (req, res) => {
+	const url = req.query.url
 	const file_name = Math.random().toString(16).substr(2, 8).concat(".png");
 	await captureWebsite.file(url, file_name);
 	const __dirname = path.resolve();
