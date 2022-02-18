@@ -2,7 +2,7 @@
   "name": "screenshot",
   "version": "0.1.0",
   "description": "Screenshot as a Service",
-  "main": "app.js",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/screenshot-service/screenshot#readme",
   "dependencies": {
+    "capture-website": "^2.3.0",
     "express": "^4.17.2"
   }
 }
